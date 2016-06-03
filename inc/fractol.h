@@ -13,7 +13,7 @@
 #ifndef FRACTOL_H
 # define FRACTOL_H
 # include "printf.h"
-# include "../minilibx_macos/mlx.h"
+# include <mlx.h>
 
 # define HIGTH 		740
 # define WIDTH		1240
