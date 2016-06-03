@@ -71,5 +71,8 @@ void					ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list					*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 t_list					*ft_lstnew(void const *content, size_t content_size);
 void					ft_lst_push_back(t_list **tmp, t_list *tmp2);
+t_list	*ft_lstfind(t_list *lst, const void *content_ref, size_t size_ref,
+		int (*cmp)(const t_list *, const void *, size_t));
+void	ft_lstpush(t_list **alst, t_list *add);
 
 #endif

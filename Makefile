@@ -17,7 +17,8 @@ LIXDIR = minilibx_macos/libmlx.a -framework OpenGl -framework appkit
 
 SRCDIR = src/
 
-SRC = 	$(SRCDIR)fractol.c
+SRC = 	$(SRCDIR)fractol.c $(SRCDIR)parser.c $(SRCDIR)helper.c $(SRCDIR)init.c\
+$(SRCDIR)event.c $(SRCDIR)algo.c
 
 YELLOW	=	\033[1;33m
 GREN	=	\033[32m
